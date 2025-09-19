@@ -1,0 +1,28 @@
+{
+  "name": "github-mcp-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "github-mcp-server": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "setup": "node setup.js"
+  },
+  "keywords": [
+    "github",
+    "mcp",
+    "model-context-protocol",
+    "server"
+  ],
+  "author": "Kilo Code",
+ "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.6.0",
+    "zod": "^3.22.0"
+  },
+  "description": "A GitHub MCP server that provides tools for interacting with GitHub repositories and issues"
+}
